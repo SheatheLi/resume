@@ -1,1 +1,124 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="软件与机器人系统研发 · 个人在线技术简历与项目展示"><title>李昊洋 · 系统软件与机器人研发</title><link rel="stylesheet" href="assets/site.css"></head><body><header><div class="container"><strong>李昊洋 / ENGINEERING PROFILE</strong><nav aria-label="页面导航"><a href="#about">个人简介</a><a href="#projects">技术项目</a><a href="#stack">技术方向</a><a href="#contact">联系</a></nav></div></header><main><section class="hero"><div class="container"><div class="eyebrow">SOFTWARE ENGINEERING · ROBOTICS · SYSTEMS</div><h1>李昊洋</h1><h2>机器人系统软件 · C++ / Python · 系统与算法工程</h2><p>以软件研发为核心职业方向，研究内容横跨机器人控制、系统软件、后端服务与算法工程。技术项目聚焦复杂系统的执行时序、状态一致性、并发正确性、检索效率及验证方法，通过可执行代码、回归测试与实验收据呈现研究过程和结论边界。</p><div class="actions"><a class="action" href="#projects">查看六项技术项目</a><a class="action secondary" href="https://github.com/SheatheLi" target="_blank" rel="noopener noreferrer">GitHub 主页</a></div></div></section><div class="container"><section class="section" id="about"><h2>个人简介</h2><div class="panel"><p>技术背景连接机电系统、工业视觉与机器人软件，关注实体设备、通信接口和软件执行逻辑在完整工程中的协同关系。在此基础上，围绕C++20并发运行时、分布式状态管理、向量检索与因果决策等主题建立独立工程研究项目，形成由应用系统进入软件底层机制与算法问题的技术研究路径。</p></div></section><section class="section" id="projects"><h2>工程项目</h2><p class="sub">六个独立仓库 · 点击项目查看源码及独立技术展示。每个项目对应独立的源码仓库与交互展示，结果以原始证据为准。</p><div class="grid"><article class="card"><div class="tag">机器人控制 / ROS2</div><h3>AdaptiveDelayMPPI</h3><p><strong>研究问题：</strong>时序失配使状态估计与命令执行错位。</p><p><strong>技术内容：</strong>MPPI与差速闭环、时滞辨识、Command Issue/Apply证据；SIL研究，非真机控制证明。</p><div class="links"><a href="https://github.com/SheatheLi/AdaptiveDelayMPPI" target="_blank" rel="noopener noreferrer">源码仓库 ↗</a><a href="https://sheatheli.github.io/AdaptiveDelayMPPI/" target="_blank" rel="noopener noreferrer">技术展示 ↗</a></div></article><article class="card"><div class="tag">向量检索 / 算法工程</div><h3>RetrievalEngine</h3><p><strong>研究问题：</strong>近似评分节省计算，但Top-K排序不能随意牺牲。</p><p><strong>技术内容：</strong>量化残差证书与向量化精算；397/397条代理查询Top-10一致，性能限于该实验。</p><div class="links"><a href="https://github.com/SheatheLi/RetrievalEngine" target="_blank" rel="noopener noreferrer">源码仓库 ↗</a><a href="https://sheatheli.github.io/RetrievalEngine/" target="_blank" rel="noopener noreferrer">技术展示 ↗</a></div></article><article class="card"><div class="tag">后端 / 分布式系统</div><h3>DeploymentControlPlane</h3><p><strong>研究问题：</strong>异步发布中的重试、旧Worker与外部效果一致性。</p><p><strong>技术内容：</strong>Desired/Active/Observed、Outbox、Lease/Fencing；本地协议和故障窗口验证。</p><div class="links"><a href="https://github.com/SheatheLi/DeploymentControlPlane" target="_blank" rel="noopener noreferrer">源码仓库 ↗</a><a href="https://sheatheli.github.io/DeploymentControlPlane/" target="_blank" rel="noopener noreferrer">技术展示 ↗</a></div></article><article class="card"><div class="tag">数据 / 优化决策</div><h3>CausalPolicyAllocation</h3><p><strong>研究问题：</strong>离线策略是否可评价，以及漂移下预算是否可靠。</p><p><strong>技术内容：</strong>DML/DR与Overlap门禁、TV鲁棒优化；合成实验同时报告收益损失。</p><div class="links"><a href="https://github.com/SheatheLi/CausalPolicyAllocation" target="_blank" rel="noopener noreferrer">源码仓库 ↗</a><a href="https://sheatheli.github.io/CausalPolicyAllocation/" target="_blank" rel="noopener noreferrer">技术展示 ↗</a></div></article><article class="card"><div class="tag">C++20 / 并发系统</div><h3>WakeGuard</h3><p><strong>研究问题：</strong>任务接纳、执行与关闭竞争中的完成义务。</p><p><strong>技术内容：</strong>有界MPMC Ring与任务结果协议；跨负载比较，不宣称所有路径无锁。</p><div class="links"><a href="https://github.com/SheatheLi/WakeGuard" target="_blank" rel="noopener noreferrer">源码仓库 ↗</a><a href="https://sheatheli.github.io/WakeGuard/" target="_blank" rel="noopener noreferrer">技术展示 ↗</a></div></article><article class="card"><div class="tag">测试 / 程序分析</div><h3>AxiomForge</h3><p><strong>研究问题：</strong>复杂失败如何产生独立、可重放的最小证据。</p><p><strong>技术内容：</strong>SQL Oracle、反例缩减、异步资源协议；437通过、10跳过为历史收据。</p><div class="links"><a href="https://github.com/SheatheLi/AxiomForge" target="_blank" rel="noopener noreferrer">源码仓库 ↗</a><a href="https://sheatheli.github.io/AxiomForge/" target="_blank" rel="noopener noreferrer">技术展示 ↗</a></div></article></div></section><section class="section" id="stack"><h2>技术方向</h2><p class="sub">以下表示项目涉及的技术范围，不等于对全部技术具有相同熟练程度。</p><div class="tokens"><span class="token">C++20 · Python</span><span class="token">ROS2 · MPPI · 机器人控制</span><span class="token">并发与内存模型</span><span class="token">FastAPI · PostgreSQL</span><span class="token">Outbox · Fencing</span><span class="token">向量检索 · Top-K</span><span class="token">因果推断 · 优化</span><span class="token">Pytest · CTest · Oracle</span></div></section><section class="section" id="contact"><h2>联系与资料</h2><div class="panel"><p>目前地点：杭州　·　目标方向：机器人及系统软件研发</p><p>GitHub：<a href="https://github.com/SheatheLi" target="_blank" rel="noopener noreferrer">github.com/SheatheLi</a></p></div></section></div></main><footer><div class="container">Engineering portfolio · 静态网站 · 无追踪代码 · 项目结果以各仓库实际证据为准</div></footer></body></html>
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="李昊洋｜机器人系统软件工程师｜工作经历、项目经验、技术栈和教育背景">
+<meta name="theme-color" content="#111e2e">
+<title>李昊洋 · 机器人系统软件工程师｜在线简历</title><link rel="stylesheet" href="assets/site.css"></head><body>
+<header class="top"><div class="wrap top-inner"><a class="brand" href="#top">LI HAOYANG <span>/ RESUME</span></a><nav aria-label="页面导航"><a href="#profile">个人简介</a><a href="#strengths">个人优势</a><a href="#skills">技术栈</a><a href="#experience">工作经验</a><a href="#projects">项目经验</a><a href="#education">教育背景</a></nav></div></header>
+<main id="top"><section class="hero"><div class="wrap hero-grid"><div><p class="eyebrow">ROBOTICS SOFTWARE ENGINEERING / C++20 / PYTHON</p><h1>李昊洋</h1><p class="hero-title">机器人系统软件工程师</p><p class="hero-intro">以机器人及系统软件研发为主要职业方向，兼具机电工程、工业机器视觉与软件研发的复合型技术背景。</p><div class="hero-meta"><span>杭州</span><a href="tel:13266201539">13266201539</a><a href="mailto:lightconcealed@163.com">lightconcealed@163.com</a><a target="_blank" rel="noopener noreferrer" href="https://github.com/SheatheLi">github.com/SheatheLi ↗</a></div></div><div class="hero-side"><div class="side-label">PROFILE SNAPSHOT</div><div class="side-item"><b>01</b><span>机电系统 → 工业视觉 → 机器人软件</span></div><div class="side-item"><b>02</b><span>六项系统软件与算法工程项目</span></div><div class="side-item"><b>03</b><span>源码 · 回归测试 · 实验证据</span></div><a class="jump" href="#projects">查看项目成果 <span aria-hidden="true">↗</span></a></div></div></section>
+<div class="wrap content">
+<section id="profile" class="section"><div class="section-head"><div><p class="eyebrow">01 / PROFILE</p><h2>个人简介</h2></div><p class=section-side>职业背景与发展主线</p></div>
+<div class="prose profile-box">
+<p>以机器人及系统软件研发为主要职业方向，具有融合机电工程、工业机器视觉与软件研发的复合型技术背景。工程经历涵盖六旋翼无人机结构设计与机电集成、工业视觉检测软件开发及机器人巡检系统研发，工作领域由实体设备与工业产线逐步延伸至机器人软件系统，形成了贯通机械结构、设备交互、工业业务与软件系统的工程认知。</p>
+<p>在产品研发实践之外，进一步围绕机器人控制、C++20并发运行时、分布式系统、向量检索、因果决策及程序分析开展独立技术项目，持续拓展系统软件、算法工程与底层计算机制方面的技术积累。整体技术发展以C++/Python软件研发为主线，将工业产品与软硬件系统背景同复杂软件工程研究相结合，形成兼具实际工程场景认知、跨领域技术视野与系统软件研发深度的职业定位。</p>
+</div>
+</section>
+<section id="strengths" class="section"><div class="section-head"><div><p class="eyebrow">02 / STRENGTHS</p><h2>个人优势</h2></div><p class=section-side>技术责任与工程能力</p></div>
+<div class="three-col">
+<article class="strength"><h3>复杂系统研发与故障定位</h3><p>围绕机器人控制、分布式任务和并发运行时中的跨模块故障，能够梳理状态变化与消息时序，追踪问题发生的具体环节，并将定位结果落实到代码修改和回归测试。</p></article>
+<article class="strength"><h3>算法实现与性能优化</h3><p>具备控制算法、向量检索与约束优化项目经验，能够在正确性和资源开销之间选择实现方案，针对计算热点开展优化，并通过统一基准和对照实验检验实际收益。</p></article>
+<article class="strength"><h3>系统可靠性与工程交付</h3><p>重视异常处理和长期维护，不只验证功能正常路径；能够围绕重试、取消、状态恢复和数据一致性设计测试，形成可复现的故障样本、自动化回归和交付记录。</p></article>
+</div>
+</section>
+<section id="skills" class="section"><div class="section-head"><div><p class="eyebrow">03 / TECHNICAL STACK</p><h2>技术栈</h2></div><p class=section-side>按简历原有分组呈现</p></div>
+<div class="skill-table">
+<div class="skill-row"><strong>语言与开发环境</strong><span>Python、C++20、SQL、TypeScript/JavaScript；Git、Linux、Shell。</span></div>
+<div class="skill-row"><strong>机器人与控制</strong><span>ROS2 Jazzy、rclcpp/rclpy、DDS/QoS、Executor、TF/Odometry、rosbag2/MCAP；NumPy、SciPy、MPPI。</span></div>
+<div class="skill-row"><strong>服务端与前端</strong><span>FastAPI、Pydantic、React、HTTP/REST、PostgreSQL、SQLite/WAL。</span></div>
+<div class="skill-row"><strong>机器学习与优化</strong><span>PyTorch、scikit-learn、Two-Tower/BPR、KMeans/IVF、向量量化；HiGHS、LP/MILP、DML/DR。</span></div>
+<div class="skill-row"><strong>测试与工程验证</strong><span>Pytest、CMake/CTest、CI；Fixture/Mock、软件在环测试、日志与Trace分析、故障注入、基准测试及独立Oracle。</span></div>
+</div>
+</section>
+<section id="experience" class="section"><div class="section-head"><div><p class="eyebrow">04 / EXPERIENCE</p><h2>工作经验</h2></div><p class=section-side>按时间倒序</p></div>
+<article class="experience entry"><div class="entry-heading"><div><h3>机器人系统软件研发工程师</h3><p class="organization">迈科思机器人（广州）有限公司</p></div><time>2026.05—2026.09</time></div><div class="entry-body">
+<div class="entry-lead"><strong>职责范围</strong><span>围绕建筑外立面智能巡检系统的软件研发，涉及设备SDK接入、巡检任务与状态管理、影像和报告数据关联，以及异常恢复、跨模块联调和版本交付。</span></div>
+<div class="entry-fact"><strong>设备接入与版本兼容</strong><span>整理设备SDK、固件版本、能力差异和错误码，设计设备连接与会话校验流程；针对设备重连、旧消息回传等情况验证任务状态是否被错误更新。</span></div>
+<div class="entry-fact"><strong>巡检任务状态管理</strong><span>梳理任务创建、执行、取消与完成流程，以Mission/Attempt区分不同执行批次；设计重复回调、取消后完成、旧任务消息等测试场景，校验状态流转和事件去重逻辑。</span></div>
+<div class="entry-fact"><strong>消息投递与故障恢复</strong><span>围绕任务状态更新、Outbox投递、接收端去重和重试恢复设计联调用例；覆盖断网积压、ACK丢失、进程重启等情况，检查消息重复发送后的业务一致性。</span></div>
+<div class="entry-fact"><strong>巡检影像与报告数据管理</strong><span>梳理巡检任务、拍摄记录、缺陷识别、人审和报告版本间的关联关系；针对迟到照片、网格版本变更和报告修订设计数据核对与追溯方案。</span></div>
+<div class="entry-fact"><strong>研发协作与版本交付</strong><span>按需求评审、工单开发、代码Review、CI验证、设备联调和版本交接组织相关工作项，整理接口变更、测试记录、未解决问题及交付清单。</span></div>
+</div></article>
+<article class="experience entry"><div class="entry-heading"><div><h3>工业机器视觉软件研发实习工程师</h3><p class="organization">广东爱美高智能设备有限公司</p></div><time>2025.10—2026.04</time></div><div class="entry-body">
+<div class="entry-lead"><strong>工作内容</strong><span>面向生活用纸包装外观检测，涉及缺陷图像处理、样本标注与评估，并覆盖工业相机触发、上位机数据交互及检测结果回传等工位软件环节。</span></div>
+<div class="entry-fact"><strong>包装缺陷识别与判定</strong><span>针对爆口、飞膜、露白、封口异常和褶皱等问题，设计ROI提取、区域标注、几何特征和缺陷程度判定流程，输出可供复核的图像与区域标记。</span></div>
+<div class="entry-fact"><strong>数据标注与模型评估</strong><span>整理42张原始标注图像及168张受控增强样本，保留原图与增强图的对应关系；按原始场景划分训练与验证数据，避免同源增强图造成评价偏高。</span></div>
+<div class="entry-fact"><strong>工位事件与结果追踪</strong><span>围绕工业相机触发、图像采集、包装件定位和检测结果回传，检查旧帧、重复触发及超时情况下的记录匹配，并整理异常复现样本。</span></div>
+<div class="entry-fact"><strong>缺陷分析与版本移交</strong><span>按光照、包装姿态、产品规格和算法版本分类误检、漏检样本；整理参数对照、问题清单与配置变更，形成可用于后续迭代的测试资料。</span></div>
+</div></article>
+<article class="experience entry"><div class="entry-heading"><div><h3>六旋翼无人机结构设计实习</h3><p class="organization">东莞理工学院（常平）智能制造与创意设计学院</p></div><time>2025.07—2025.08</time></div><div class="entry-body">
+<div class="entry-lead"><strong>工作内容</strong><span>围绕六旋翼机架与载荷平台的结构设计，涉及三维建模、零部件选型、装配校核、机电布局和BOM及技术图纸整理。</span></div>
+<div class="entry-fact"><strong>机架结构设计与装配检查</strong><span>整理机臂、中心舱、电池仓和起落架的三维模型及BOM，核对电机、电调和飞控安装空间，检查重心、线束走向与装配干涉，记录结构调整和试装反馈。</span></div>
+</div></article>
+</section>
+<section id="projects" class="section"><div class="section-head"><div><p class="eyebrow">05 / PROJECTS</p><h2>项目经验</h2></div><p class=section-side>六项独立仓库 · 源码与技术展示</p></div>
+<article class="project entry"><div class="entry-heading"><div><p class="project-category">机器人 · 控制 · ROS2</p><h3>AdaptiveDelayMPPI｜ROS2差速机器人时滞补偿控制</h3></div><div class="project-links"><a target="_blank" rel="noopener noreferrer" href="https://github.com/SheatheLi/AdaptiveDelayMPPI">GitHub 源码 ↗</a><a target="_blank" rel="noopener noreferrer" href="https://sheatheli.github.io/AdaptiveDelayMPPI/">交互展示 ↗</a></div></div><div class="entry-body">
+<div class="entry-lead"><strong>项目介绍</strong><span>针对差速机器人在ROS2通信、回调处理和指令生效之间存在的时延，开发带时间校验与时滞补偿的MPPI控制原型。项目在软件在环环境实现滚动优化控制、观测有效性检查和命令事件关联，通过延迟注入与成对回放评估跟踪误差、补偿效果和失效工况。</span></div>
+<div class="entry-meta"><strong>技术栈</strong><span>ROS2 Jazzy、rclcpp/rclpy、Python、C++20、NumPy、SE(2)、MPPI、Odometry、rosbag2/MCAP、SIL</span></div>
+<div class="entry-meta"><strong>负责内容</strong><span>MPPI控制器、观测时间校验、命令时序诊断、时滞估计与闭环测试</span></div>
+<h4>技术成果</h4>
+<div class="entry-fact"><strong>差速MPPI控制器与仿真闭环</strong><span>实现差速运动学模型、控制序列采样、轨迹代价评估及滚动优化；搭建可注入传感与执行延迟的软件在环环境，完成不同补偿策略的同条件对照。</span></div>
+<div class="entry-fact"><strong>观测时间校验与异常处理</strong><span>关联传感采样、消息接收、ROS2回调和控制读取时间，识别过期、倒序及异常时间戳；将无效观测拦截在控制计算之前，并输出可回放的时序日志。</span></div>
+<div class="entry-fact"><strong>控制指令事件关联与时延分析</strong><span>为Command Issue与Apply记录建立命令身份关联，计算下发到应用记录之间的时间差；对丢失、迟到和无法匹配的事件输出诊断结果，支持离线追踪执行时序。</span></div>
+<div class="entry-fact"><strong>时滞估计与参数更新控制</strong><span>根据观测与控制轨迹估计执行时延，结合输入激励程度和独立验证误差决定是否更新参数；在低激励或拟合不足时维持原估计，避免不可靠补偿进入闭环。</span></div>
+<div class="entry-fact"><strong>时滞补偿对照与失效分析</strong><span>采用6个随机种子、两档传感延迟和每组130步的配对仿真，对比无补偿、固定补偿与自适应策略的轨迹RMSE及计算时延；定位了自适应补偿在部分工况下效果不及基线的问题。</span></div>
+</div></article>
+<article class="project entry"><div class="entry-heading"><div><p class="project-category">AI · 算法 · 性能</p><h3>RetrievalEngine｜Exact Top-K认证与向量检索优化</h3></div><div class="project-links"><a target="_blank" rel="noopener noreferrer" href="https://github.com/SheatheLi/RetrievalEngine">GitHub 源码 ↗</a><a target="_blank" rel="noopener noreferrer" href="https://sheatheli.github.io/RetrievalEngine/">交互展示 ↗</a></div></div><div class="entry-body">
+<div class="entry-lead"><strong>项目介绍</strong><span>开发基于量化误差界的精确Top-K向量检索原型，在减少精确评分次数的同时保证排序结果与全精度检索一致。项目覆盖向量表示、候选生成、量化界限计算和精排优化，并在Digits/PCA24代理数据上验证结果一致性与单线程CPU性能。</span></div>
+<div class="entry-meta"><strong>技术栈</strong><span>Python、PyTorch、NumPy、Two-Tower、BPR、AdamW、KMeans/IVF、向量量化、Cauchy–Schwarz、Branch-and-Bound</span></div>
+<div class="entry-meta"><strong>负责内容</strong><span>检索链路搭建、Exact Top-K认证、NumPy向量化优化及性能评估</span></div>
+<h4>技术成果</h4>
+<div class="entry-fact"><strong>向量召回与精排评估链路</strong><span>实现Embedding训练、IVF候选检索及精排流程，使用Recall、NDCG和MRR分阶段评估表示质量、候选召回与最终排序，便于区分模型问题和索引问题。</span></div>
+<div class="entry-fact"><strong>量化误差界与Exact Top-K认证</strong><span>利用重构残差和Cauchy–Schwarz界计算候选得分区间，提前剔除不可能进入Top-K的向量；对剩余候选执行全精度评分，处理并列分数并校验最终排序。</span></div>
+<div class="entry-fact"><strong>NumPy批量计算优化</strong><span>将逐候选的Python边界判断和精确评分改为批量向量运算。Digits/PCA24代理数据下，397条查询经7轮单线程CPU测试，中位耗时由47.60ms降至19.70ms，约提升2.42倍。</span></div>
+<div class="entry-fact"><strong>检索一致性与精算量验证</strong><span>在1400条索引、397条查询、K=10的代理数据上，与密集全精度检索逐条比较，397次查询的Top-10结果全部一致；平均每次查询仅需对12.25个候选执行全精度评分。</span></div>
+</div></article>
+<article class="project entry"><div class="entry-heading"><div><p class="project-category">全栈 · 分布式 · 事务</p><h3>DeploymentControlPlane｜分布式发布控制平台</h3></div><div class="project-links"><a target="_blank" rel="noopener noreferrer" href="https://github.com/SheatheLi/DeploymentControlPlane">GitHub 源码 ↗</a><a target="_blank" rel="noopener noreferrer" href="https://sheatheli.github.io/DeploymentControlPlane/">交互展示 ↗</a></div></div><div class="entry-body">
+<div class="entry-lead"><strong>项目介绍</strong><span>面向应用版本发布中任务重试、Worker异常退出及旧任务覆盖新状态的问题，开发基于React和FastAPI的发布控制平台。系统通过Desired/Active版本管理、事务Outbox、租约围栏和幂等接收串联发布请求、异步执行与故障恢复，并提供版本、任务及投递记录的可视化查询。</span></div>
+<div class="entry-meta"><strong>技术栈</strong><span>React/TypeScript、FastAPI、Pydantic、SQLite WAL、PostgreSQL、Transactional Outbox、Lease/Fencing、CAS、HTTP/REST</span></div>
+<div class="entry-meta"><strong>负责内容</strong><span>发布状态模型、API与管理台、Worker执行协议、事务投递和故障恢复测试</span></div>
+<h4>技术成果</h4>
+<div class="entry-fact"><strong>发布版本与任务状态管理</strong><span>设计Desired/Active版本、任务状态和操作记录的数据模型，提供发布请求与执行状态查询接口；React管理台可查看服务版本、Worker任务及Outbox投递情况。</span></div>
+<div class="entry-fact"><strong>事务Outbox与幂等投递</strong><span>将版本变更与待发送的HTTP操作写入同一数据库事务，由Worker按Effect ID重试投递；接收端按消息身份去重，处理ACK丢失和重复请求引起的副作用风险。</span></div>
+<div class="entry-fact"><strong>租约围栏与原子状态更新</strong><span>使用Lease、Generation和CAS校验Worker所有权，阻止旧任务覆盖新版本；通过SQLite并发复现发现读改写造成代际3被覆盖为2，改用原子UPSERT后保留正确代际。</span></div>
+<div class="entry-fact"><strong>故障恢复与重复投递验证</strong><span>构造Worker退出、消息重发、ACK丢失和过期回调等故障，验证任务可恢复推进、重复Effect ID不会重复记录，以及旧代际ACK被拒绝。</span></div>
+<div class="entry-fact"><strong>前后端集成与接口回归</strong><span>联调React管理台、FastAPI、SQLite WAL与异步Worker，提供PostgreSQL适配代码和HTTP冒烟测试；本地API及协议测试72项通过，覆盖关键状态流转和异常恢复路径。</span></div>
+</div></article>
+<article class="project entry"><div class="entry-heading"><div><p class="project-category">数据 · 因果 · 决策</p><h3>CausalPolicyAllocation｜因果策略评估与鲁棒资源分配</h3></div><div class="project-links"><a target="_blank" rel="noopener noreferrer" href="https://github.com/SheatheLi/CausalPolicyAllocation">GitHub 源码 ↗</a><a target="_blank" rel="noopener noreferrer" href="https://sheatheli.github.io/CausalPolicyAllocation/">交互展示 ↗</a></div></div><div class="entry-body">
+<div class="entry-lead"><strong>项目介绍</strong><span>面向历史日志驱动的资源分配场景，开发离线策略评估与鲁棒预算优化原型。针对反事实收益难以直接观测、部分决策缺乏样本支持和分布漂移可能造成预算超限的问题，结合DML/DR、Overlap/ESS检查与TV分布鲁棒优化，评估策略收益及预算风险。实验基于合成数据。</span></div>
+<div class="entry-meta"><strong>技术栈</strong><span>Python、NumPy、scikit-learn、DML、AIPW/DR、Cross-fitting、OPE、Overlap/ESS、SciPy/HiGHS、LP/MILP、TV鲁棒优化</span></div>
+<div class="entry-meta"><strong>负责内容</strong><span>离线策略估计、样本支持诊断、鲁棒预算求解与压力测试</span></div>
+<h4>技术成果</h4>
+<div class="entry-fact"><strong>双重稳健离线策略评估</strong><span>采用交叉拟合训练倾向模型和结果模型，结合DML与AIPW/DR估计候选策略价值，输出收益估计、分组诊断与样本切分结果，便于复查评价过程。</span></div>
+<div class="entry-fact"><strong>策略支持域与有效样本量检查</strong><span>使用Overlap和ESS评估历史数据对候选动作的覆盖程度；对样本支持不足的策略直接拒绝比较，并输出对应人群及样本统计，减少无依据的策略外推。</span></div>
+<div class="entry-fact"><strong>TV分布鲁棒预算优化</strong><span>将分布变化建模为Total Variation不确定性集合，基于HiGHS求解资源分配方案；通过最坏情形搜索与约束生成迭代，控制分布扰动下的预算超限风险。</span></div>
+<div class="entry-fact"><strong>预算稳健性与收益代价评估</strong><span>在三群体合成实验中设置TV半径0.26、预算0.65；名义策略最坏成本为0.81，鲁棒策略降至0.56，超预算额由0.16降为0，同时最坏收益从0.664降至0.22，明确优化带来的收益代价。</span></div>
+</div></article>
+<article class="project entry"><div class="entry-heading"><div><p class="project-category">C++ · 并发 · 内存模型</p><h3>WakeGuard｜C++20并发任务执行器</h3></div><div class="project-links"><a target="_blank" rel="noopener noreferrer" href="https://github.com/SheatheLi/WakeGuard">GitHub 源码 ↗</a><a target="_blank" rel="noopener noreferrer" href="https://sheatheli.github.io/WakeGuard/">交互展示 ↗</a></div></div><div class="entry-body">
+<div class="entry-lead"><strong>项目介绍</strong><span>实现C++20有界MPMC队列和任务执行器，重点处理多生产者、多消费者同时访问队列，以及任务提交与停止过程中的竞争。围绕槽位所有权、Promise/Future结果通知和关闭协议设计可复现测试，并与互斥锁、条件变量及信号量实现进行负载对照。</span></div>
+<div class="entry-meta"><strong>技术栈</strong><span>C++20、std::atomic、Release/Acquire、CAS、MPMC Ring、Promise/Future、RAII、Condition Variable、CMake/CTest</span></div>
+<div class="entry-meta"><strong>负责内容</strong><span>有界MPMC队列、Submit/Stop协议、线程竞态回归与执行器性能基准</span></div>
+<h4>技术成果</h4>
+<div class="entry-fact"><strong>有界MPMC队列实现</strong><span>采用环形缓冲区与槽位序号协调多生产者、多消费者并发入队和出队；通过原子操作及Release/Acquire内存序管理数据可见性，并用任务身份对账检查重复和遗漏。</span></div>
+<div class="entry-fact"><strong>任务提交与关闭协议</strong><span>明确Submit与Stop竞争时的任务接纳规则，统一Promise/Future的完成、取消和异常返回路径；通过并发关闭测试检查已接纳任务是否都能得到终态通知。</span></div>
+<div class="entry-fact"><strong>并发交错与任务完整性测试</strong><span>利用Barrier、延迟注入和重复Stop构造提交、执行与关闭之间的竞争窗口，核对任务接纳数、完成数和结果状态；将可复现用例纳入CTest自动化回归。</span></div>
+<div class="entry-fact"><strong>多实现执行器性能对照</strong><span>在4生产者、4消费者和Empty、Busy20、Sleep100三类负载下比较原子MPMC、Mutex、CV和Semaphore执行器。Busy20组中Semaphore中位耗时13.11ms，原子MPMC为13.93ms，为不同负载下的实现选型提供依据。</span></div>
+</div></article>
+<article class="project entry"><div class="entry-heading"><div><p class="project-category">测试开发 · 程序分析 · Oracle</p><h3>AxiomForge｜程序缺陷诊断与反例缩减工具</h3></div><div class="project-links"><a target="_blank" rel="noopener noreferrer" href="https://github.com/SheatheLi/AxiomForge">GitHub 源码 ↗</a><a target="_blank" rel="noopener noreferrer" href="https://sheatheli.github.io/AxiomForge/">交互展示 ↗</a></div></div><div class="entry-body">
+<div class="entry-lead"><strong>项目介绍</strong><span>开发面向程序缺陷复现与验证的测试研究工具，覆盖SQL聚合粒度错误、异步资源取消和有界程序变换三个场景。通过独立Oracle判断失败条件，自动保存可重放的错误输入、缩减反例并验证候选修复，减少人工定位与复测成本。</span></div>
+<div class="entry-meta"><strong>技术栈</strong><span>Python、Pytest、SQLite、SymPy、CEGIS、Bounded Checking、Independent Oracle、Counterexample Shrinking、asyncio/AnyIO、HTTPX/HTTPcore</span></div>
+<div class="entry-meta"><strong>负责内容</strong><span>独立Oracle设计、SQL错误复现、最小反例缩减、异步资源测试及候选修复验证</span></div>
+<h4>技术成果</h4>
+<div class="entry-fact"><strong>CEGIS有限域Guard合成</strong><span>枚举候选Guard并交由独立Oracle验证，利用失败输入迭代收紧条件；在指定有限输入域内经过3轮搜索完成候选验证，并保留可复测的反例和判定记录。</span></div>
+<div class="entry-fact"><strong>SQL JOIN聚合错误定位</strong><span>对JOIN前后的业务实体身份和聚合粒度进行独立核对，复现一对多关联导致的重复计数；输出错误签名、最小数据集和可直接重放的SQLite查询用例。</span></div>
+<div class="entry-fact"><strong>最小反例缩减与验证开销优化</strong><span>按故障保持规则分层删除无关记录，将指定SQL错误样本由300行缩至3行，并通过独立Oracle确认错误仍可复现；判定调用由逐行Greedy的301次降至55次。</span></div>
+<div class="entry-fact"><strong>异步取消与连接回收测试</strong><span>针对请求取消、连接借出、Close执行及资源释放建立状态检查；通过受控线程交错区分资源泄漏、正常回收和证据不足的情况，生成对应的可重放测试用例。</span></div>
+<div class="entry-fact"><strong>候选修复与自动化回归</strong><span>围绕分隔符处理和复合键JOIN缺陷建立独立失败用例，对修复候选执行回归复测；现有隔离回归记录437项通过、10项因测试数据依赖缺失跳过。</span></div>
+</div></article>
+</section>
+<section id="education" class="section"><div class="section-head"><div><p class="eyebrow">06 / EDUCATION</p><h2>教育背景</h2></div></div>
+<div class="education-box"><h3>东莞理工学院 · 中法联合学院</h3>
+<p class="degree">机械设计制造及其自动化 · 本科 <span>2022—2026</span></p>
+<p>专业培养侧重机械设计、先进制造与机电一体化控制，课程涵盖机械原理、机械设计、机械制图、结构力学、材料技术、电路分析、机电传动与控制，以及C/C++程序设计与机器人应用工程实践。毕业课题围绕生活用纸包装缺陷检测与辅助决策，结合工业视觉与制造场景，开展典型缺陷分析、图像区域处理、数据标注、检测结果评价及辅助判定研究。</p>
+</div>
+</section>
+<section class="section contact" id="contact"><div class="section-head"><div><p class="eyebrow">07 / CONTACT</p><h2>联系方式</h2></div></div><div class="contact-list"><span>杭州</span><a href="tel:13266201539">13266201539</a><a href="mailto:lightconcealed@163.com">lightconcealed@163.com</a><a href="https://github.com/SheatheLi">GitHub / SheatheLi ↗</a></div></section>
+</div></main><footer><div class="wrap"><span>李昊洋 · 在线简历</span><a href="#top">返回顶部 ↑</a></div></footer></body></html>
